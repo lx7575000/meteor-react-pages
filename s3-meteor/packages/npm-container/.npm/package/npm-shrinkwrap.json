@@ -1,0 +1,509 @@
+{
+  "dependencies": {
+    "externalify": {
+      "version": "https://registry.npm.taobao.org/externalify/download/externalify-0.1.0.tgz",
+      "dependencies": {
+        "globo": {
+          "version": "https://registry.npm.taobao.org/globo/download/globo-1.0.2.tgz",
+          "dependencies": {
+            "accessory": {
+              "version": "https://registry.npm.taobao.org/accessory/download/accessory-1.0.1.tgz",
+              "dependencies": {
+                "dot-parts": {
+                  "version": "https://registry.npm.taobao.org/dot-parts/download/dot-parts-1.0.1.tgz"
+                }
+              }
+            },
+            "is-defined": {
+              "version": "https://registry.npm.taobao.org/is-defined/download/is-defined-1.0.0.tgz"
+            },
+            "ternary": {
+              "version": "https://registry.npm.taobao.org/ternary/download/ternary-1.0.0.tgz"
+            }
+          }
+        },
+        "map-obj": {
+          "version": "1.0.1"
+        },
+        "replace-require-functions": {
+          "version": "https://registry.npm.taobao.org/replace-require-functions/download/replace-require-functions-1.0.0.tgz",
+          "dependencies": {
+            "detective": {
+              "version": "https://registry.npm.taobao.org/detective/download/detective-4.1.1.tgz",
+              "dependencies": {
+                "acorn": {
+                  "version": "1.2.2"
+                },
+                "defined": {
+                  "version": "1.0.0"
+                },
+                "escodegen": {
+                  "version": "https://registry.npm.taobao.org/escodegen/download/escodegen-1.8.0.tgz",
+                  "dependencies": {
+                    "estraverse": {
+                      "version": "1.9.3"
+                    },
+                    "esutils": {
+                      "version": "2.0.2"
+                    },
+                    "esprima": {
+                      "version": "https://registry.npm.taobao.org/esprima/download/esprima-2.7.1.tgz"
+                    },
+                    "optionator": {
+                      "version": "https://registry.npm.taobao.org/optionator/download/optionator-0.8.1.tgz",
+                      "dependencies": {
+                        "prelude-ls": {
+                          "version": "1.1.2"
+                        },
+                        "deep-is": {
+                          "version": "0.1.3"
+                        },
+                        "wordwrap": {
+                          "version": "1.0.0"
+                        },
+                        "type-check": {
+                          "version": "https://registry.npm.taobao.org/type-check/download/type-check-0.3.2.tgz"
+                        },
+                        "levn": {
+                          "version": "https://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz"
+                        },
+                        "fast-levenshtein": {
+                          "version": "https://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-1.1.0.tgz"
+                        }
+                      }
+                    },
+                    "source-map": {
+                      "version": "0.2.0",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "has-require": {
+              "version": "https://registry.npm.taobao.org/has-require/download/has-require-1.2.1.tgz",
+              "dependencies": {
+                "escape-string-regexp": {
+                  "version": "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.4.tgz"
+                }
+              }
+            },
+            "patch-text": {
+              "version": "https://registry.npm.taobao.org/patch-text/download/patch-text-1.0.2.tgz"
+            },
+            "xtend": {
+              "version": "https://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz"
+            }
+          }
+        },
+        "through2": {
+          "version": "0.4.2",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.0.33",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz"
+                },
+                "isarray": {
+                  "version": "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            },
+            "xtend": {
+              "version": "2.1.2",
+              "dependencies": {
+                "object-keys": {
+                  "version": "0.4.0"
+                }
+              }
+            }
+          }
+        },
+        "transformify": {
+          "version": "https://registry.npm.taobao.org/transformify/download/transformify-0.1.2.tgz",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.1.13",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz"
+                },
+                "isarray": {
+                  "version": "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "material-ui": {
+      "version": "https://registry.npm.taobao.org/material-ui/download/material-ui-0.14.0.tgz",
+      "dependencies": {
+        "inline-style-prefixer": {
+          "version": "https://registry.npm.taobao.org/inline-style-prefixer/download/inline-style-prefixer-0.5.4.tgz",
+          "dependencies": {
+            "bowser": {
+              "version": "https://registry.npm.taobao.org/bowser/download/bowser-1.0.0.tgz"
+            },
+            "caniuse-api": {
+              "version": "https://registry.npm.taobao.org/caniuse-api/download/caniuse-api-1.4.1.tgz",
+              "dependencies": {
+                "browserslist": {
+                  "version": "https://registry.npm.taobao.org/browserslist/download/browserslist-1.1.0.tgz"
+                },
+                "caniuse-db": {
+                  "version": "https://registry.npm.taobao.org/caniuse-db/download/caniuse-db-1.0.30000385.tgz"
+                },
+                "lodash.memoize": {
+                  "version": "https://registry.npm.taobao.org/lodash.memoize/download/lodash.memoize-2.4.1.tgz",
+                  "dependencies": {
+                    "lodash.isfunction": {
+                      "version": "2.4.1"
+                    },
+                    "lodash._keyprefix": {
+                      "version": "https://registry.npm.taobao.org/lodash._keyprefix/download/lodash._keyprefix-2.4.2.tgz"
+                    }
+                  }
+                },
+                "lodash.uniq": {
+                  "version": "https://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-3.2.2.tgz",
+                  "dependencies": {
+                    "lodash._basecallback": {
+                      "version": "https://registry.npm.taobao.org/lodash._basecallback/download/lodash._basecallback-3.3.1.tgz",
+                      "dependencies": {
+                        "lodash._baseisequal": {
+                          "version": "https://registry.npm.taobao.org/lodash._baseisequal/download/lodash._baseisequal-3.0.7.tgz",
+                          "dependencies": {
+                            "lodash.istypedarray": {
+                              "version": "3.0.2"
+                            },
+                            "lodash.keys": {
+                              "version": "3.1.2",
+                              "dependencies": {
+                                "lodash.isarguments": {
+                                  "version": "3.0.4"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "lodash._bindcallback": {
+                          "version": "3.0.1"
+                        },
+                        "lodash.pairs": {
+                          "version": "https://registry.npm.taobao.org/lodash.pairs/download/lodash.pairs-3.0.1.tgz",
+                          "dependencies": {
+                            "lodash.keys": {
+                              "version": "3.1.2",
+                              "dependencies": {
+                                "lodash.isarguments": {
+                                  "version": "3.0.4"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "lodash._baseuniq": {
+                      "version": "https://registry.npm.taobao.org/lodash._baseuniq/download/lodash._baseuniq-3.0.3.tgz",
+                      "dependencies": {
+                        "lodash._baseindexof": {
+                          "version": "https://registry.npm.taobao.org/lodash._baseindexof/download/lodash._baseindexof-3.1.0.tgz"
+                        },
+                        "lodash._cacheindexof": {
+                          "version": "https://registry.npm.taobao.org/lodash._cacheindexof/download/lodash._cacheindexof-3.0.2.tgz"
+                        },
+                        "lodash._createcache": {
+                          "version": "https://registry.npm.taobao.org/lodash._createcache/download/lodash._createcache-3.1.2.tgz"
+                        }
+                      }
+                    },
+                    "lodash._getnative": {
+                      "version": "3.9.1"
+                    },
+                    "lodash._isiterateecall": {
+                      "version": "3.0.9"
+                    },
+                    "lodash.isarray": {
+                      "version": "3.0.4"
+                    }
+                  }
+                },
+                "shelljs": {
+                  "version": "0.5.3"
+                }
+              }
+            }
+          }
+        },
+        "lodash.merge": {
+          "version": "3.3.2",
+          "dependencies": {
+            "lodash._arraycopy": {
+              "version": "3.0.0"
+            },
+            "lodash._arrayeach": {
+              "version": "3.0.0"
+            },
+            "lodash._createassigner": {
+              "version": "3.1.1",
+              "dependencies": {
+                "lodash._bindcallback": {
+                  "version": "3.0.1"
+                },
+                "lodash._isiterateecall": {
+                  "version": "3.0.9"
+                },
+                "lodash.restparam": {
+                  "version": "3.6.1"
+                }
+              }
+            },
+            "lodash._getnative": {
+              "version": "3.9.1"
+            },
+            "lodash.isarguments": {
+              "version": "3.0.4"
+            },
+            "lodash.isarray": {
+              "version": "3.0.4"
+            },
+            "lodash.isplainobject": {
+              "version": "3.2.0",
+              "dependencies": {
+                "lodash._basefor": {
+                  "version": "3.0.2"
+                }
+              }
+            },
+            "lodash.istypedarray": {
+              "version": "3.0.2"
+            },
+            "lodash.keys": {
+              "version": "3.1.2"
+            },
+            "lodash.keysin": {
+              "version": "3.0.8"
+            },
+            "lodash.toplainobject": {
+              "version": "3.0.0",
+              "dependencies": {
+                "lodash._basecopy": {
+                  "version": "3.0.1"
+                }
+              }
+            }
+          }
+        },
+        "lodash.throttle": {
+          "version": "https://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-3.0.4.tgz",
+          "dependencies": {
+            "lodash.debounce": {
+              "version": "3.1.1",
+              "dependencies": {
+                "lodash._getnative": {
+                  "version": "3.9.1"
+                }
+              }
+            }
+          }
+        },
+        "react-addons-create-fragment": {
+          "version": "https://registry.npm.taobao.org/react-addons-create-fragment/download/react-addons-create-fragment-0.14.6.tgz"
+        },
+        "react-addons-pure-render-mixin": {
+          "version": "https://registry.npm.taobao.org/react-addons-pure-render-mixin/download/react-addons-pure-render-mixin-0.14.6.tgz"
+        },
+        "react-addons-transition-group": {
+          "version": "https://registry.npm.taobao.org/react-addons-transition-group/download/react-addons-transition-group-0.14.6.tgz"
+        },
+        "react-addons-update": {
+          "version": "https://registry.npm.taobao.org/react-addons-update/download/react-addons-update-0.14.6.tgz"
+        },
+        "warning": {
+          "version": "https://registry.npm.taobao.org/warning/download/warning-2.1.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.2.tgz"
+                }
+              }
+            }
+          }
+        },
+        "react": {
+          "version": "https://registry.npm.taobao.org/react/download/react-0.14.6.tgz",
+          "dependencies": {
+            "envify": {
+              "version": "https://registry.npm.taobao.org/envify/download/envify-3.4.0.tgz",
+              "dependencies": {
+                "through": {
+                  "version": "2.3.8"
+                },
+                "jstransform": {
+                  "version": "10.1.0",
+                  "dependencies": {
+                    "base62": {
+                      "version": "https://registry.npm.taobao.org/base62/download/base62-0.1.1.tgz"
+                    },
+                    "esprima-fb": {
+                      "version": "13001.1001.0-dev-harmony-fb"
+                    },
+                    "source-map": {
+                      "version": "0.1.31",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "fbjs": {
+              "version": "https://registry.npm.taobao.org/fbjs/download/fbjs-0.6.1.tgz",
+              "dependencies": {
+                "core-js": {
+                  "version": "https://registry.npm.taobao.org/core-js/download/core-js-1.2.6.tgz"
+                },
+                "loose-envify": {
+                  "version": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+                  "dependencies": {
+                    "js-tokens": {
+                      "version": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.2.tgz"
+                    }
+                  }
+                },
+                "promise": {
+                  "version": "https://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+                  "dependencies": {
+                    "asap": {
+                      "version": "2.0.3"
+                    }
+                  }
+                },
+                "ua-parser-js": {
+                  "version": "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz"
+                },
+                "whatwg-fetch": {
+                  "version": "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react": {
+      "version": "https://registry.npm.taobao.org/react/download/react-0.14.6.tgz",
+      "dependencies": {
+        "envify": {
+          "version": "https://registry.npm.taobao.org/envify/download/envify-3.4.0.tgz",
+          "dependencies": {
+            "through": {
+              "version": "2.3.8"
+            },
+            "jstransform": {
+              "version": "10.1.0",
+              "dependencies": {
+                "base62": {
+                  "version": "https://registry.npm.taobao.org/base62/download/base62-0.1.1.tgz"
+                },
+                "esprima-fb": {
+                  "version": "13001.1001.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.31",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "fbjs": {
+          "version": "https://registry.npm.taobao.org/fbjs/download/fbjs-0.6.1.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "https://registry.npm.taobao.org/core-js/download/core-js-1.2.6.tgz"
+            },
+            "loose-envify": {
+              "version": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.2.tgz"
+                }
+              }
+            },
+            "promise": {
+              "version": "https://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+              "dependencies": {
+                "asap": {
+                  "version": "2.0.3"
+                }
+              }
+            },
+            "ua-parser-js": {
+              "version": "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.10.tgz"
+            },
+            "whatwg-fetch": {
+              "version": "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz"
+            }
+          }
+        }
+      }
+    },
+    "react-dom": {
+      "version": "https://registry.npm.taobao.org/react-dom/download/react-dom-0.14.6.tgz"
+    },
+    "react-tap-event-plugin": {
+      "version": "https://registry.npm.taobao.org/react-tap-event-plugin/download/react-tap-event-plugin-0.2.1.tgz",
+      "dependencies": {
+        "fbjs": {
+          "version": "https://registry.npm.taobao.org/fbjs/download/fbjs-0.2.1.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "https://registry.npm.taobao.org/core-js/download/core-js-1.2.6.tgz"
+            },
+            "promise": {
+              "version": "https://registry.npm.taobao.org/promise/download/promise-7.1.1.tgz",
+              "dependencies": {
+                "asap": {
+                  "version": "2.0.3"
+                }
+              }
+            },
+            "whatwg-fetch": {
+              "version": "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-0.9.0.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
