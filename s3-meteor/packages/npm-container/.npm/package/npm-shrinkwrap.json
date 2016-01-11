@@ -481,6 +481,53 @@
     "react-dom": {
       "version": "https://registry.npm.taobao.org/react-dom/download/react-dom-0.14.6.tgz"
     },
+    "react-router": {
+      "version": "https://registry.npm.taobao.org/react-router/download/react-router-2.0.0-rc4.tgz",
+      "dependencies": {
+        "invariant": {
+          "version": "https://registry.npm.taobao.org/invariant/download/invariant-2.2.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.2.tgz"
+                }
+              }
+            }
+          }
+        },
+        "warning": {
+          "version": "https://registry.npm.taobao.org/warning/download/warning-2.1.0.tgz",
+          "dependencies": {
+            "loose-envify": {
+              "version": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.1.0.tgz",
+              "dependencies": {
+                "js-tokens": {
+                  "version": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-1.0.2.tgz"
+                }
+              }
+            }
+          }
+        },
+        "history": {
+          "version": "https://registry.npm.taobao.org/history/download/history-1.17.0.tgz",
+          "dependencies": {
+            "deep-equal": {
+              "version": "1.0.1"
+            },
+            "query-string": {
+              "version": "https://registry.npm.taobao.org/query-string/download/query-string-3.0.0.tgz",
+              "dependencies": {
+                "strict-uri-encode": {
+                  "version": "https://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-1.1.0.tgz"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "react-tap-event-plugin": {
       "version": "https://registry.npm.taobao.org/react-tap-event-plugin/download/react-tap-event-plugin-0.2.1.tgz",
       "dependencies": {
