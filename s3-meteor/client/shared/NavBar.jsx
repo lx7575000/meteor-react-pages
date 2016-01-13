@@ -78,8 +78,8 @@ NavBar = React.createClass({
             value={currentUser ? '/account' : '/signup'}
             style={styles.tab} />
           <Tab
-            label='log in'
-            value='/login'
+            label={currentUser ? currentUser.username :'log in'}
+            value={currentUser ? '/' : '/login'}
             style={styles.tab} />
         </Tabs>
         { logoutMenu }
