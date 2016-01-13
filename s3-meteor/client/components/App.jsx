@@ -1,4 +1,16 @@
 const {Link } = ReactRouter;
+/*
+	React 中获得动态获取Meteor数据，需要使用minxins来获取
+	mixins: [ReactMeteorData],
+	getMeteorData(){
+		return {
+			想要获取的数据例如
+			currentUser: Meteor.user()
+		}
+	}
+	在React当中通过this.data.currentUser形式获得
+*/
+
 
 App = React.createClass({
 	mixins: [ReactMeteorData],
