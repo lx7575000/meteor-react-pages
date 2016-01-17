@@ -9,6 +9,8 @@ const {Link } = ReactRouter;
 		}
 	}
 	在React当中通过this.data.currentUser形式获得
+	具体介绍页面 ： http://react-in-meteor.readthedocs.org/en/latest/meteor-data/
+
 */
 
 
