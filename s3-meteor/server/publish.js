@@ -9,3 +9,7 @@ Meteor.publish('userData', () => {
 Meteor.publish('messages', ()=>{
 	return Messages.find();
 });
+
+Meteor.publish('userStatus', () => {
+	return Meteor.users.find({'status.online' : true});
+});
